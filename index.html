@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/css/bootstrap.css">
+    <title>IndexBlog</title>
+</head>
+
+<body class="bg-dark text-white">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark shadow p-3 mb-5 rounded">
+        <a class="navbar-brand" style="color: aliceblue;" href="#">MeuBlog</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" style="color: aliceblue;" href="#">Sobre mim <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: aliceblue;" href="">Projetos</a>
+                </li>
+
+
+            </ul>
+        </div>
+    </nav>
+    <div class="container mt-5">
+        <div class="jumbotron">
+            <h1 class="display-4">Olá, mundo!!</h1>
+            <p class="lead">Me chamo Gabriel, tenho 22 anos e estudo desenvolvimento web. Fiz esse site com o intuito de
+                falar um pouco sobre os meus estudos e mostrar alguns dos meus projetos, espero que gostem.</p>
+            <hr class="my-4">
+            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+            <p class="lead">
+                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a><br>
+            </p>
+        </div>
+
+        <div class="row mt-5" style="justify-content: space-between;">
+            <div class="card bg-dark text-light shadow p-3 mb-5 rounded" style="width: 22rem;">
+                <img class="card-img-top" src="/public/img/gerador.png" alt="image">
+                <div class="card-body">
+                    <h5 class="card-title" id="titulo-gerador"></h5>
+                    <p class="card-text" id="desc-gerador"></p>
+                    <a href="https://github.com/GBvaillant/GERADOR" class="btn btn-primary" role="button">Saiba mais
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="card bg-dark text-light shadow p-3 mb-5 rounded " style="width: 22rem;">
+                <img class="card-img-top" src="public/img/relogio.png" alt="image">
+                <div class="card-body">
+                    <h5 class="card-title" id="titulo-relogio"></h5>
+                    <p class="card-text" id="desc-relogio">
+                    </p>
+                    <a href="#" class="btn btn-primary">Saiba mais</a>
+                </div>
+            </div>
+            <div class="card bg-dark text-light shadow p-3 mb-5 rounded " style="width: 22rem;">
+                <img class="card-img-top" src="public/img/planetas.png" alt="image">
+                <div class="card-body">
+                    <h5 class="card-title" id="titulo-sistemasol"></h5>
+                    <p class="card-text" id="desc-sistemasol">
+                    </p>
+                    <a href="#" class="btn btn-primary">Saiba mais</a>
+                </div>
+            </div>
+            <div class="card bg-dark text-light shadow p-3 mb-5 rounded " style="width: 22rem;">
+                <img class="card-img-top" src="public/img/login.png" alt="image">
+                <div class="card-body">
+                    <h5 class="card-title" id="titulo-tellogin"></h5>
+                    <p class="card-text" id="desc-tellogin"> </p>
+                    <a href="#" class="btn btn-primary">Saiba mais</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+    integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+    integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+    crossorigin="anonymous"></script>
+<script src="./public/js/bootstrap.js"></script>
+<script src="./src/dbPost.js"></script>
+
+</html>
