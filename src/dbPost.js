@@ -28,8 +28,8 @@ document.getElementById('desc-tellogin').innerHTML = tellogin.desc
 
 const jumbtxt = {
     titulo: 'Gabriel Vaillant',
-    desc: 'Olá, fiz esse site para contar um pouco sobre mim, meus estudos e mostrar alguns dos meus projetos, espero que gostem',
-    pub: 'Me chamo Gabriel Vaillant, moro no Rio de Janeiro e estudo programação. Já fiz dois semestres de análise e desenvolvimento de sistemas em 2019, porém me encontrei na programação só depois, já que sempre fui muito ligado em computadores, video games e etc,  resolvi me arriscar nesse mundo. Hoje faço faculdade de Sistemas da Informação, além de estudar desenvolvimento web, estou no meu 3º período atualmente e buscando o meu primeiro emprego na área da tecnologia. Gosto tanto do FrontEnd quanto do BackEnd, estou focado em estudar e aprender cada vez mais.'
+    desc: 'Olá, fiz esse site para contar um pouco sobre mim, e mostrar alguns dos meus projetos, espero que gostem',
+    pub: 'Olá! Meu nome é Gabriel Vaillant, tenho 22 anos e sou um entusiasta da tecnologia, estudante de Sistemas da Informação e apaixonado pelo desenvolvimento web. Com projetos tanto no frontend quanto no backend, estou sempre buscando aprender e me aprimorar mais nas tecnologias e melhores práticas do setor. No frontend, domino as linguagens HTML, CSS e JavaScript, e tenho habilidades no uso de frameworks populares, como bootstrap. No backend, tenho conhecimentos em linguagens como NodeJs. Também estou familiarizado com bancos de dados relacionais e não relacionais, como MySQL e MongoDB, o que me permite construir soluções robustas e eficientes. Além do conhecimento técnico, sou um comunicador eficaz e um bom solucionador de problemas. Tenho uma mentalidade orientada para resultados e gosto de trabalhar em equipe. Estou atualmente em busca de uma oportunidade empolgante na área de tecnologia, onde possa aplicar e expandir meus conhecimentos, contribuindo para o crescimento de uma empresa. Estou aberto a desafios e pronto para enfrentar novas experiências profissionais.'
 }
 document.getElementById('titulo-jumb').innerHTML = jumbtxt.titulo
 document.getElementById('desc-jumb').innerHTML = jumbtxt.desc
