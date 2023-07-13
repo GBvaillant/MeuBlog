@@ -42,8 +42,8 @@ const apiNaruto = {
 document.getElementById('naruto-titulo').innerHTML = apiNaruto.titulo
 document.getElementById('naruto-desc').innerHTML = apiNaruto.desc
 
-const apiCrud = { 
-    titulo: 'API cadastro de usuários',
+const apiCrud = {
+    titulo: 'API com  NodeJs',
     desc: 'Api feita em NodeJs, com express, jwt, mongoose, bcrypt e etc... para cadastro, listagem, edição, deleção, busca de usuários e autenticação, com validações e banco de dados online no mongodb atlas.'
 }
 
