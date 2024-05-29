@@ -12,19 +12,12 @@ const relogio = {
 document.getElementById('titulo-relogio').innerHTML = relogio.titulo
 document.getElementById('desc-relogio').innerHTML = relogio.desc
 
-// const sistemasol = {
-//     titulo: 'Sistema Solar',
-//     desc: 'Um projeto feito focado no frontend usando o JavaScript para criar sliders e listar os planetas do sistema solar com uma breve descrição.'
-// }
-// document.getElementById('titulo-sistemasol').innerHTML = sistemasol.titulo
-// document.getElementById('desc-sistemasol').innerHTML = sistemasol.desc
-
-// const tellogin = {
-//     titulo: 'Tela de login/registro',
-//     desc: 'Um projeto de tela de login e registro, feito com HTML, CSS e JavaScript.'
-// }
-// document.getElementById('titulo-tellogin').innerHTML = tellogin.titulo
-// document.getElementById('desc-tellogin').innerHTML = tellogin.desc
+const sistemasol = {
+    titulo: 'Sistema Solar',
+    desc: 'Um projeto feito focado no frontend usando o JavaScript para criar sliders em um mini blog sobre o sistema solar.'
+}
+document.getElementById('titulo-sistemasol').innerHTML = sistemasol.titulo
+document.getElementById('desc-sistemasol').innerHTML = sistemasol.desc
 
 const listaTarefas = {
     titulo: 'Lista de tarefas',
@@ -40,6 +33,12 @@ const projetos = {
 document.getElementById('titulo-projetos').innerHTML = projetos.titulo
 document.getElementById('desc-projetos').innerHTML = projetos.desc
 
+const fornecedores = {
+    titulo: 'Administrador de Fornecedores',
+    desc: 'Gerenciador de fornecedores feito em React consumindo uma API própria feita em Typescript e Node. Permite listar todos os fornecedores, ver mais detalhes e informações, adicionar, editar e excluir.'
+}
+document.getElementById('titulo-fornecedores').innerHTML = fornecedores.titulo
+document.getElementById('desc-fornecedores').innerHTML = fornecedores.desc
 
 const jumbtxt = {
     titulo: 'Gabriel Vaillant',
@@ -67,8 +66,24 @@ document.getElementById('desc-crud').innerHTML = apiCrud.desc
 
 const apiTarefas = {
     titulo: 'API lista de tarefas',
-    desc: 'Api feita em NodeJs com banco de dados MongoDb atlas, para lista de tarefas com funcionalidades de adicionar tarefas, listar tarefas, excluir tarefas e completar/descompletar tarefas'
+    desc: 'Api feita com TypeScript, Node e docker compose, usando PostgreSQl como banco de dados. Api permite criar tarefas, listar, excluir, editar e completar/descompletar tarefa. Além de possuir cadastro/login e autenticação de usuário para cirar tarefas logado em uma conta.'
 }
 
 document.getElementById('titulo-apiTarefas').innerHTML = apiTarefas.titulo
 document.getElementById('desc-apiTarefas').innerHTML = apiTarefas.desc
+
+const apiFornecedores = {
+    titulo: 'API Fornecedores',
+    desc: 'Api feita com TypeScript, Node, docker e PostgreSQl como banco de dados. Permite administar fornecedores de uma determinada empresa.'
+}
+
+document.getElementById('titulo-apiFornecedores').innerHTML = apiFornecedores.titulo
+document.getElementById('desc-apiFornecedores').innerHTML = apiFornecedores.desc
+
+const apiJava = {
+    titulo: 'API Java',
+    desc: 'Crud feito em java com SpringBoot, docker compose e PostgreSQL usando arquitetura Rest.'
+}
+
+document.getElementById('titulo-apiJava').innerHTML = apiJava.titulo
+document.getElementById('desc-apiJava').innerHTML = apiJava.desc             
